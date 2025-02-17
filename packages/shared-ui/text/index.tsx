@@ -2,7 +2,7 @@ import type { TextProps } from "react-native";
 import { Text as NNText } from "react-native";
 import { cva, type VariantProps } from "class-variance-authority";
 
-const text = cva("font-inter self-start", {
+const text = cva("font-inter self-start text-white", {
   variants: {
     variant: {
       xxs: "text-xxs",

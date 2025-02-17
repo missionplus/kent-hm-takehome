@@ -16,8 +16,14 @@ yarn run dev
 yarn run build
 ```
 
+## Please check demo.png so see how it looks like
+
+Because we have only mobile design so i just made it only for mobile, so make sure you run native on simulator and run web on your browser to get the best experience.
+
 ### Folder Structure
+
 This monorepo consists of the two workspaces `apps` & `packages`
+
 ```bash
 mp-home-assigment
 └── apps
@@ -28,6 +34,7 @@ mp-home-assigment
     ├── shared-config
     └── shared-app
 ```
+
 ### Apps and Packages
 
 - `apps/native`: a [react-native](https://reactnative.dev/) app built with [expo](https://docs.expo.dev/)

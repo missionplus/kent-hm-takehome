@@ -10,7 +10,7 @@ module.exports = withExpo({
     "react-native-web",
     "ui",
     "nativewind",
-    "react-native-css-interop",
+    "react-native-css-interop"
     // Add other packages that need transpiling
   ],
   webpack: (config) => {

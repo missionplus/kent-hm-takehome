@@ -9,7 +9,7 @@ import { Text, TextVariants } from "../text";
 import { cva, type VariantProps } from "class-variance-authority";
 
 export const buttonVariants = cva(
-  "h-12 px-6 py-3 rounded-[40px] justify-center items-center gap-1.5 inline-flex",
+  "h-12 px-6 py-3 rounded-[40px] justify-center items-center inline-flex",
   {
     variants: {
       variant: {
@@ -35,7 +35,8 @@ export const buttonVariants = cva(
         ],
       },
       size: {
-        lg: ["py-0.75 rounded-[40px] px-1"],
+        sm: ["px-3 py-2 gap-1"],
+        lg: ["px-6 py-3 gap-1.5"],
         xl: ["px-1.25 py-0.75 rounded-[80px]"],
         "2xl": ["rounded-lg px-1.5 py-1"],
       },

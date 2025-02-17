@@ -8,6 +8,7 @@
         "."
     ],
     "devDependencies": {
-        "@mp/shared-ui": "*"
+        "@mp/shared-ui": "*",
+        "react-native-gesture-handler": "*"
     }
 }
